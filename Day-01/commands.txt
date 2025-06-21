@@ -1,0 +1,25 @@
+pwd        – Prints the current working directory path
+ls         – Lists files and directories
+ls -l      – Lists with detailed info (permissions, size, date)
+cd         – Changes the current working directory
+cd ..      – Moves back to the parent directory
+mkdir      – Creates a new directory
+touch      – Creates an empty file
+cat        – Displays file contents
+echo       – Outputs text or variables to terminal
+cp         – Copies files or directories
+mv         – Moves or renames files/directories
+rm         – Deletes files
+rm -r      – Deletes folders recursively
+chmod      – Changes file permissions (e.g., chmod 755 file.sh)
+chown      – Changes file owner
+clear      – Clears the terminal screen
+whoami     – Shows your username
+date       – Displays current system date and time
+uptime     – Shows how long the system has been running
+df -h      – Shows disk space usage (human-readable)
+free -m    – Shows memory usage in MB
+head       – Shows first 10 lines of a file
+tail       – Shows last 10 lines of a file
+grep       – Searches for text inside files
+man        – Opens manual for a command (e.g., man ls)
