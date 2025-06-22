@@ -4,12 +4,18 @@ This repository contains my hands-on journey into learning DevOps from scratch �
 
 ## 📁 Folder Structure
 
-| Folder      | Description                          |
-|-------------|--------------------------------------|
-| Day-01      | Basic Linux commands, file operations, intro to Git & Bash |
-| Day-02      | Conditional statements, bash scripts with if/else |
-| Day-03      | Loops (for, while, until) and functions in Bash |
-| Day-04+     | Script arguments, real-world automation, and more to come |
+| Folder      | Description                                                           |
+|-------------|-----------------------------------------------------------------------|
+| Day-01      | Basic Linux commands, file operations, intro to Git & Bash            |
+| Day-02      | Conditional statements, bash scripts with if/else                     |
+| Day-03      | Loops (for, while, until) and functions in Bash                       |
+| Day-04      | Script arguments, `case`, and automation scripts (calculator, backup) |
+| Day-05      | Text filters: `grep`, `cut`, `sort`, `uniq`, `head`, `tail`           |
+| Day-06      | File permissions, `chmod`, `chown`, `passwd`, `groups`                |
+| Day-07      | Bash projects: log cleaner, auto backup, pattern searcher             |
+| Day-08      | Git branching, merging, stash, GitHub CLI & `.gitignore`              |
+| Day-09      | Docker: basic usage, images, containers, and common commands          |
+| Day-10      | Dockerfile, Docker Compose, and multi-container setups                |
 
 ## 🛠️ Tools Practiced So Far
 
