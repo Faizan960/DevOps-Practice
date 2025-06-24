@@ -1,4 +1,13 @@
-# DevOps Practice 🚀
+## 📁 Folder Structure
+
+| Folder      | Description                                                  |
+|-------------|--------------------------------------------------------------|
+| Day-01      | Basic Linux commands, file operations, intro to Git & Bash   |
+| Day-02      | Conditional statements, bash scripts with if/else            |
+| Day-03      | Loops (for, while, until) and functions in Bash              |
+| Day-04      | Script arguments, date-based automation, backup scripting    |
+| Day-05      | Text processing commands: `cut`, `uniq`, `grep`, file parsing |
+| Day-06      | File permissions, `chmod`, `chown`, `umask`, `id`, `groups`  |# DevOps Practice 🚀
 
 This repository contains my hands-on journey into learning DevOps from scratch — including daily Bash scripting, Linux commands, automation, and tool practice.
 
