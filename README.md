@@ -4,20 +4,20 @@ This repository contains my hands-on journey into learning **DevOps from scratch
 
 ---
 
-# DevOps Learning Journey
+# # DevOps Learning Journey
 
-| Day     | Topics Covered                                                                    | Folder Name |
-|---------|------------------------------------------------------------------------------------|-------------|
-| Day 01  | Basic Linux commands, file operations, intro to Git & Bash                        | Day-01      |
-| Day 02  | Conditional statements, bash scripts with if/else                                  | Day-02      |
-| Day 03  | Loops (for, while, until) and functions in Bash                                    | Day-03      |
-| Day 04  | Script arguments, case, and automation scripts (calculator, backup)                | Day-04      |
-| Day 05  | Text filters: grep, cut, sort, uniq, head, tail                                    | Day-05      |
-| Day 06  | File permissions, chmod, chown, passwd, groups                                     | Day-06      |
-| Day 07  | Bash projects: log cleaner, auto backup, pattern searcher                          | Day-07      |
-| Day 08  | Git branching, merging, stash, GitHub CLI & .gitignore                             | Day-08      |
-| Day 09  | Docker: basic usage, images, containers, and common commands                       | Day-09      |
-| Day 10  | Dockerfile, Docker Compose, and multi-container setups                             | Day-10      |
+| Day     | Topics Covered                                                                     | Folder Name |
+|---------|-------------------------------------------------------------------------------------|-------------|
+| Day 01  | Basic Linux commands, file operations, intro to Git & Bash                         | Day-01      |
+| Day 02  | Conditional statements, bash scripts with if/else                                   | Day-02      |
+| Day 03  | Loops (for, while, until) and functions in Bash                                     | Day-03      |
+| Day 04  | Script arguments, case, and automation scripts (calculator, backup)                 | Day-04      |
+| Day 05  | Text filters: grep, cut, sort, uniq, head, tail                                     | Day-05      |
+| Day 06  | File permissions, chmod, chown, passwd, groups                                      | Day-06      |
+| Day 07  | File compression with tar, gzip; file permissions and access control                | Day-07      |
+| Day 08  | Git branching, merging, stash, GitHub CLI & .gitignore                              | Day-08      |
+| Day 09  | Docker: basic usage, images, containers, and common commands                        | Day-09      |
+| Day 10  | Dockerfile, Docker Compose, and multi-container setups                              | Day-10      |
 ---
 
 ## 🛠️ Tools Practiced So Far
