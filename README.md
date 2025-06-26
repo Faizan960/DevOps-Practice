@@ -4,7 +4,7 @@ This repository contains my hands-on journey into learning **DevOps from scratch
 
 ---
 
-# # DevOps Learning Journey
+## DevOps Learning Journey
 
 | Day     | Topics Covered                                                                     | Folder Name |
 |---------|-------------------------------------------------------------------------------------|-------------|
