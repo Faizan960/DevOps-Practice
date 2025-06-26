@@ -1,0 +1,5 @@
+# Ignore logs and temp files
+*.log
+*.tmp
+Day-08/secret.txt
+.vscode/
