@@ -1,0 +1,21 @@
+Docker Version
+Docker version 28.1.1, build 4eba377
+
+ Pulling alpine images:
+Using default tag: latest
+latest: Pulling from library/alpine
+fe07684b16b8: Pull complete
+Digest: sha256:8a1f59ffb675680d47db6337b49d22281a139e9d709335b492be023728e11715
+Status: Downloaded newer image for alpine:latest
+docker.io/library/alpine:latest
+
+Listing images:
+REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+alpine       latest    8a1f59ffb675   3 weeks ago   12.8MB
+
+Running alpine container (Tem):
+Hello Docker container
+
+Listing all containers:
+CONTAINER ID   IMAGE     COMMAND                  CREATED                  STATUS                              PORTS     NAMES
+dd3a7d428601   alpine    "echo 'Hello Docker …"   Less than a second ago   Exited (0) Less than a second ago             gallant_wescoff
