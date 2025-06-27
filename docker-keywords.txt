@@ -1,0 +1,120 @@
+=========================
+🛠️ Docker CLI Commands & Flags Reference
+=========================
+
+📌 Basic Docker Commands:
+
+docker --version
+  → Check installed Docker version.
+
+docker pull <image>
+  → Download image from Docker Hub (e.g., docker pull alpine)
+
+docker run <image>
+  → Run a container from an image (e.g., docker run alpine)
+
+docker images
+  → List downloaded images.
+
+docker ps
+  → List running containers.
+
+docker ps -a
+  → List all containers (running + stopped).
+
+docker rm <container_id>
+  → Remove a stopped container.
+
+docker rmi <image_id>
+  → Remove an image.
+
+docker exec -it <container_id> /bin/sh
+  → Open a shell inside a running container.
+
+docker stop <container_id>
+  → Stop a running container.
+
+docker start <container_id>
+  → Restart a stopped container.
+
+docker logs <container_id>
+  → Show logs (stdout/stderr) of a container.
+
+docker inspect <container_id or image>
+  → View low-level details in JSON.
+
+docker tag <image> <new_name>
+  → Rename or re-tag an image.
+
+docker push <image>
+  → Push an image to a Docker registry (like Docker Hub).
+
+=========================
+📦 Common Flags and Options
+=========================
+
+docker pull <image>:<tag>
+  → Pull a specific version (e.g., docker pull node:18)
+
+docker run -it <image>
+  → Run interactively with a terminal (useful for Alpine shell)
+
+docker run --name <custom_name> <image>
+  → Assign a name to the container
+
+docker run -d <image>
+  → Run in detached mode (background)
+
+docker run -p <host_port>:<container_port> <image>
+  → Map ports (for web apps or services)
+
+docker run -v <host_path>:<container_path> <image>
+  → Mount a volume from host to container
+
+docker run --rm <image>
+  → Automatically remove the container after exit
+
+=========================
+📂 Image & Container Info
+=========================
+
+docker image ls
+  → Same as `docker images`
+
+docker container ls
+  → Same as `docker ps`
+
+docker container ls -a
+  → Same as `docker ps -a`
+
+docker image inspect <image>
+  → Inspect detailed image metadata
+
+docker container inspect <container>
+  → Inspect detailed container info
+
+=========================
+🧹 Cleanup
+=========================
+
+docker container prune
+  → Remove all stopped containers
+
+docker image prune
+  → Remove unused images
+
+docker system prune
+  → Clean up unused containers, images, volumes, networks
+
+=========================
+🔁 Stashing Practice
+=========================
+
+docker commit <container_id> <new_image_name>
+  → Save changes in a container as a new image
+
+docker save -o <tar_file> <image>
+  → Save an image to a tar archive
+
+docker load -i <tar_file>
+  → Load an image from a tar archive
