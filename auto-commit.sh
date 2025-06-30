@@ -4,22 +4,22 @@
 set -e
 
 branch=$(git rev-parse --abbrev-ref HEAD)
-commit_msg="Auto commit on $(date '+%Y-%m-%d %H:%M:%S')"
+timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+commit_msg="Auto commit on $timestamp by Faizan Patel"
 
-# Stage changes
+# 📝 Log the commit time
+echo "Committed at $timestamp" >> .daily-commit-log.txt
+
+# ✅ Stage everything (to avoid unstaged error)
 git add .
 
-# Check for staged changes
-if git diff --cached --quiet; then
-    echo "No changes to commit."
-else
-    git commit -m "$commit_msg"
-    
-    echo "🔄 Pulling latest changes from origin/$branch..."
-    git pull --rebase origin "$branch"
-    
-    echo "📤 Pushing changes..."
-    git push origin "$branch"
-    
-    echo "✅ Auto committed and pushed by Faizan Patel!"
-fi
+# ✅ Commit the change
+git commit -m "$commit_msg"
+
+# 🔄 Rebase pull to sync with remote
+git pull --rebase origin "$branch"
+
+# 🚀 Push the changes
+git push origin "$branch"
+
+echo "✅ Auto commit done and pushed by Faizan Patel!"
